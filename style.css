@@ -1,29 +1,10 @@
 .card {
-  width: 300px;
-  margin: 50px auto;
-  text-align: center;
-  background: #fff;
-  border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-}
-
-.circle {
-  width: 150px;              /* circle size */
-  height: 150px;
-  border-radius: 50%;        /* make it a circle */
-  overflow: hidden;          /* hides overflow */
-  margin: 0 auto 15px;       /* centers it */
-  border: 3px solid #000;    /* circle border */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff;
-}
-
-.profile-img {
-  width: 100%;               /* fill circle */
-  height: 100%;
-  object-fit: cover;         /* keep proportions, fill circle */
-  border-radius: 50%;        /* ensures round edges */
+  width: 300px;                  /* adjust size */
+  background-color: #fff;        /* white background */
+  border-radius: 20px;           /* rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* soft shadow */
+  padding: 20px;                 /* inner spacing */
+  text-align: center;            /* center content */
+  margin: 50px auto;             /* center horizontally */
+  font-family: Arial, sans-serif;
 }
