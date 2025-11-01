@@ -1,40 +1,29 @@
 .card {
-    width: 300px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
+  width: 300px;
+  margin: 50px auto;
+  text-align: center;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
 }
 
 .circle {
-    width: 150px;
-    height: 150px;
-    background-color: #e0e0e0;
-    border-radius: 50%;
-    margin: 0 auto 20px;
-    border: 2px solid #ccc;
+  width: 150px;              /* circle size */
+  height: 150px;
+  border-radius: 50%;        /* make it a circle */
+  overflow: hidden;          /* hides overflow */
+  margin: 0 auto 15px;       /* centers it */
+  border: 3px solid #000;    /* circle border */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
 }
 
-.name {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 10px 0;
-}
-
-.title {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 15px;
-}
-
-.description {
-    font-size: 14px;
-    color: #333;
-}
-
-.highlight {
-    color: #e91e63;
-    font-weight: bold;
+.profile-img {
+  width: 100%;               /* fill circle */
+  height: 100%;
+  object-fit: cover;         /* keep proportions, fill circle */
+  border-radius: 50%;        /* ensures round edges */
 }
